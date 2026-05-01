@@ -128,3 +128,9 @@
 - Editor title drag must not use live rendered-source reordering as its preview. Re-rendering the dragged/target wrappers under the pointer can cause an oscillating swap loop.
 - Move embedded documents by exact reference identity: `{path, sourceOwnerPath, sourceLine}` to `{targetOwnerPath, insertAtLineIndex}`. Path-only reorder is insufficient when the same file is referenced multiple times or inside nested parents.
 - Parent documents expose thin insertion targets plus text-area line targets so a child document can be moved into the middle of parent content, not only before/after another child wrapper.
+
+## 2026-05-02 GitHub Initial Push
+
+- Repository remote is `https://github.com/HC-kang/mamo.git` on `main`.
+- Initial implementation was pushed as `ee18be4`; README and screenshot asset were pushed as `ecb1561`.
+- README uses `docs/assets/mamo-workbench.png` as the project screenshot and frames Mamo as a hierarchical Markdown proof of concept.
